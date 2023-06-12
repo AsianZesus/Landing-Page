@@ -6,45 +6,72 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* primary header */
+header {
+    height: 65vh;
+    background-color: #1F2937;
+}
+
+
 .primary-header {
     display: flex;
-    /* height: 100px; */
-    padding-top: 20px;
-    padding-left: 180px;
-    padding-right: 180px;
-    padding-bottom: 400px;
-
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-
-    
-    background-color: #1F2937;
-    color: white;
-    
+    padding: 15px;
 }
 
-.logo {
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 24px;
-    font-weight: bolder;
-    color: #F9FAF8;
+    gap: 8px;
 }
 
-.primary-navigation {
-    display: flex;
-
-    gap: 1rem;
-    list-style: none;
-    /* text-decoration: none; */
-    font-size: 18px;
-    /* color: #E5E7EB; */
-}
-
-.primary-navigation > li > a{
+a {
     text-decoration: none;
-     
+    font-size: 18px;
     color: #E5E7EB;
+    padding: 10px;
+}
+
+.header-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    margin-left: 170px;
+    margin-right: 160px;
+    gap: 2em;
+}
+
+.header-main-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.header-image {
+    color: royalblue;
+  /* font-size: 26px; */
+  /* font-weight: 700; */
+  background: lavender;
+  width: 1550px;
+  height: 220px;
+  /* border-radius:  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.sign-up-btn {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
 }
