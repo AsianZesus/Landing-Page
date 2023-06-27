@@ -30,7 +30,7 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 10px;
+   padding: 10px;
 }
 
 .header-text {
@@ -40,12 +40,12 @@ a {
     padding: 80px;
     margin-left: 170px;
     margin-right: 160px;
-    gap: 2em;
+    gap: 3em;
 }
 
 .header-main-text {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     width: 1200px;
 }
@@ -55,7 +55,7 @@ a {
   /* font-size: 26px; */
   /* font-weight: 700; */
   background: lavender;
-  width: 1550px;
+  width: 1350px;
   height: 220px;
   /* border-radius:  */
   display: flex;
@@ -64,14 +64,51 @@ a {
   margin-right: 20px;
 }
 
-.sign-up-btn {
-    cursor: pointer;
-    margin-top: 10px;
-    padding: 5px 30px;
+button {
     border-radius: 8px;
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.sign-up-btn {
+    margin-top: 10px;
     font-weight: 500;
     font-size: 16px;
+}
+
+.random-info-div{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.info-conatiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 4em;
+}
+
+.info-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
+    justify-content: center;
+}
+
+.info-box {
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6 4px;
+    border-radius: 1em;
+    margin-bottom: 10px;
+}
+
+.info-head-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
 }
